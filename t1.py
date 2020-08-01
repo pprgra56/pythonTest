@@ -8,7 +8,7 @@ t = "shiwo<'sdfs'$s><div rou "">tana加息"
 text = pymysql.escape_string(t)
 sql = f"INSERT INTO `test1`.`student2` (`id`, `name`, `xiaoshu`, `text`, `time`) VALUES ('4', 'cq', '23.2321', '{text}', '{time_now}');"
 
-  
+  nimabi
 i =cursor.execute(sql)
 conn.commit()
 
