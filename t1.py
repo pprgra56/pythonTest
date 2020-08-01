@@ -10,7 +10,7 @@ sql = f"INSERT INTO `test1`.`student2` (`id`, `name`, `xiaoshu`, `text`, `time`)
 
   nimabi
   father
-  
+  zijia zai gongsi xiagai yidun !!!!!!
 i =cursor.execute(sql)
 conn.commit()
 
